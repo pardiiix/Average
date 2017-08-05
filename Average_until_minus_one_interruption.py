@@ -17,7 +17,7 @@ while x!=-1:
         x=int(x)
     except ValueError: #if user does not enter an integer, the code asks them to try again
         print('Please enter an integer')
-        x=input('enter a number:')
+        continue
     x=int(x)
     counter+=1
     total+=x
